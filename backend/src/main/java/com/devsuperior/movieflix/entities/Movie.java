@@ -37,7 +37,7 @@ public class Movie implements Serializable{
 	private Genre genre;
 	
 	@JsonIgnore
-	@OneToMany(mappedBy = "user")
+	@OneToMany(mappedBy = "movie")
 	private List<Review> reviews = new ArrayList<>();
 	
 	public Movie() {
