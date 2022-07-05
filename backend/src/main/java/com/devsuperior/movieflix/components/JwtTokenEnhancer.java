@@ -1,4 +1,4 @@
-package com.devsuperior.movieflix;
+package com.devsuperior.movieflix.components;
 
 import java.util.HashMap;
 import java.util.Map;
