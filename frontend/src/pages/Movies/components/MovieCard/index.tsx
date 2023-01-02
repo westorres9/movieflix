@@ -7,7 +7,8 @@ type Props = {
 
 const MovieCard = ({ movie }: Props) => {
   return (
-    <div className="movie-card-container">
+    <div className='row'>
+      <div className="movie-card-container col-md-3">
       <img
         src={ movie.imgUrl }
         alt={ movie.title }
@@ -22,6 +23,7 @@ const MovieCard = ({ movie }: Props) => {
         <span className="movie-year">{ movie.year }</span>
         <h4 className="movie-subtitle">{ movie.subTitle }</h4>
       </div>
+    </div>
     </div>
   )
 }

@@ -18,7 +18,7 @@ const Movies = () => {
 
   const getMovies = useCallback(() => {
     const params = {
-      linesPerPage: 12,
+      linesPerPage: 4,
       genreId: genre?.id,
       page: activePage
     }
